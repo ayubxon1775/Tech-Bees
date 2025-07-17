@@ -269,6 +269,53 @@ header {
 .details i {
   font-size: 30px;
 }
+.team {
+  margin-top: 80px;
+}
+.team-h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.grid-wrapper {
+  background: var(--gradient-2);
+  padding: 4rem;
+}
+.team-mem {
+  background: white;
+  height: 400px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 1s ease;
+}
+.team-mem:hover {
+  transform: translateY(-20px);
+}
+.team-mem h2 {
+  color: gray;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.team-mem i {
+  color: gray;
+  margin: 20px;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+.team-mem i:hover {
+  color: blue;
+  transform: scale(1.2);
+}
+.team-mem img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+
+
 
 @keyframes scaleup {
   0% {
