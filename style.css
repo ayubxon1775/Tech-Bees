@@ -348,7 +348,30 @@ header {
 .review p {
   padding-left: 80px;
 }
-
+.blogs {
+  margin-top: 80px;
+}
+.blogs .grid-wrapper {
+  padding: 4rem;
+}
+.blog {
+  min-height: 400px;
+}
+.blog h1 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.blog a {
+  color: #282f59;
+}
+.blog img {
+  width: 100%;
+  max-height: 300px;
+}
+.blog-h1 {
+  font-size: 40px;
+  text-align: center;
+}
 
 @keyframes scaleup {
   0% {
