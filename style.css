@@ -373,6 +373,35 @@ header {
   text-align: center;
 }
 
+/* Call to action */
+.getstarted {
+  margin-top: 80px;
+}
+.ctn-container {
+  padding: 10rem;
+  display: flex;
+  width: 80%;
+  padding: 2rem;
+  box-shadow: 0px 0px 10px black;
+  margin: 10px auto;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.ctn-ctn {
+  padding: 20px 50px;
+  color: white;
+  background: var(--gradient-2);
+  border: none;
+  font-size: 20px;
+  border-radius: 2px;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 255, 0.479);
+  cursor: pointer;
+  outline: none;
+}
+.ctn-ctn:hover {
+  background: var(--gradient-4);
+}
+
 @keyframes scaleup {
   0% {
     transform: scale(1.2);
