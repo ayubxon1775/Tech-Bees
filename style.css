@@ -401,6 +401,44 @@ header {
 .ctn-ctn:hover {
   background: var(--gradient-4);
 }
+/* Footer */
+.footer {
+  margin-top: 80px;
+  background-image: url(images/footer-agency.png);
+  background-size: cover;
+}
+.col-4 {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-1 h1 {
+  font-size: 40px;
+  margin-bottom: 30;
+}
+.footer-1 i {
+  margin: 50px 20px;
+  font-size: 25px;
+  color: gray;
+}
+.footer-2 h4,
+.footer-3 h4,
+.footer-4 h4 {
+  color: gray;
+  font-weight: 400;
+}
+hr {
+  width: 90%;
+  margin: 0 auto;
+}
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  color: gray;
+  padding: 30px;
+  font-weight: 400;
+}
 
 @keyframes scaleup {
   0% {
