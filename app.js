@@ -15,3 +15,22 @@ window.addEventListener('scroll', () => {
 
   }
 })
+
+// Theme
+const themeToggle = document.querySelector('.checkbox');
+const body = document.querySelector('body');
+const darkmode = localStorage.getItem('dark')
+if(darkmode) {
+  body.classList.add('dark')
+  themeToggle.checked = true
+}
+
+themeToggle.addEventListener('change', () => {
+  body.classList.toggle('dark')
+
+  if(body.classList.contains('dark')) {
+    localStorage.setItem('dark', 'active');
+  }else {
+    localStorage.removeItem('dark')
+  }
+})
